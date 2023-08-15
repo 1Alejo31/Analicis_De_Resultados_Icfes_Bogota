@@ -4,7 +4,7 @@
  * Krhistian Alejandro Gonzalez Duarte <alejo.g31@hotmail.com>,
  * Leindis Dik Monterroza Hernández <Leindish@gmail.com>
  * Fernando Sanchez Romero <fernandosanchezrome@gmail.com>
- * @Proyecto: Analicis De Resultados Icfes Bogota
+ * @Proyecto: Analisis De Resultados Icfes Bogota
  * @version: 1.0 [14/08/2023]
 """
 
@@ -35,3 +35,14 @@ df = pd.read_csv(url)
  * @version: 1.0 [14/08/2023]
 """
 print(df.columns)
+
+X = ['PUNT_GLOBAL',  'PUNT_MATEMATICAS', 'PUNT_INGLES',  'PUNT_SOCIALES_CIUDADANAS', 'PUNT_LECTURA_CRITICA' ]
+
+#Creando sub base
+#Para ver la correlacion
+print(df[X].corr())
+
+df = df[X]
+
+#Para graficar
+ax = sns.heatmap(df.corr(), annot=True, cmap='Blues')
