@@ -1,6 +1,7 @@
 """
  * @Institución: Iberoamericana de colombia 
- * @authors:  Juan Camilo Hernández Zúñiga <jherna91@ibero.edu.co>,
+ * @authors: Juan Manuel Escobar Carvajal <juan_cediyumbo@hotmail.com>,
+ * Juan Camilo Hernández Zúñiga <jherna91@ibero.edu.co>,
  * Krhistian Alejandro Gonzalez Duarte <alejo.g31@hotmail.com>,
  * Leindis Dik Monterroza Hernández <Leindish@gmail.com>
  * Fernando Sanchez Romero <fernandosanchezrome@gmail.com>
